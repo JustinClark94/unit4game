@@ -1,0 +1,62 @@
+html{
+background-image: url("../images/background2.jpg");
+}
+body{
+    background:;
+    color: rgb(99, 99, 99);
+}
+
+#wrap{
+    width:720px;
+    
+    margin: auto;
+    padding: 25px;
+}
+#contentwrapper{
+    background-color: rgb(252, 252, 252);
+    padding: 20px;
+    border:20px;
+    border-color: white;
+    
+}
+#directions{
+    width: 100%;
+    text-align: justify;
+}
+#numberValues{
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+}
+
+#randomNumber{
+    float: left;
+    background-color:rgb(199, 203, 255);
+    width: 33%;
+    padding:25px;
+    box-sizing: border-box;
+
+
+}
+#crystalValue{
+    padding:25px;
+    width: 33%;
+    float:left;
+    box-sizing: border-box;
+    background-color:rgb(161, 232, 225);
+
+
+}
+#scoreBoard{
+    background-color: rgb(252, 195, 255);
+    width: 33%;
+    padding:25px;
+    float:left;
+    box-sizing: border-box;
+
+ }
+#crystalImages{
+    align-content: center;
+    padding: 10px;
+    clear:both;
+}

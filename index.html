@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="contentwrapper">
+            <h1 id="gameName">Crystal Collector!</h1>
+
+            <div id="directions">
+                <p>
+                    You will be given a random number at the start of the game.
+                </p>
+                <p>
+                    There are four crytals below. By clicking on a crystal you will add a specific amount of points to your score.
+                    You win the game by matching your total score to a random number. You lose the game if your score total goves above the random number.
+                </p>
+                <p>
+                    The value of each crystal is hidden until you click on it.
+                </p>
+                <p>
+                    Each time the game starts, the game will change the value of each crystal.
+                </p>
+            </div>
+            <div id="numberValues">
+                <div id="randomNumber">
+            
+
+                </div>
+                <div id="crystalValue">Crystal Value:
+                <span id="totalScore">
+        
+
+                </span></div>
+
+                <div id="scoreBoard">
+                    Wins:  <span id="winning"></span>
+                    Losses: <span id="losing"></span>
+
+
+                </div>
+            </div>
+                <div id="crystalImages">
+                    <img src="images/acrystal.png" id="acrystal" height="155px" width="150px">
+                    <img src="images/bcrystal.png" id="bcrystal" height="155px" width="150px">
+                    <img src="images/ccrystal.png" id="ccrystal" height="155px" width="150px">
+                    <img src="images/dcrystal.png" id="dcrystal" height="155px" width="150px">
+
+                </div>
+            <div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript/game.js"></script>
+</body>
+</html>
