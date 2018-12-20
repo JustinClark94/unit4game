@@ -36,15 +36,15 @@
     var checkScore = function(){
     if (crystalTotal===targetNumber){
       wins ++  
-      //alert("Congrats! You won the game!");
+      alert("Congrats! You won the game!");
       console.log("W" + wins)
-        
+      $("#winning").html(wins);
     }
     else if (crystalTotal > targetNumber){
       losses ++  
-      //alert("You lost! Try Again");
+      alert("You lost! Try Again");
       console.log("L" + losses)
-        
+      $("#losing").html(losses);
     }
   };
 
@@ -72,5 +72,5 @@
     checkScore();
   }); 
 
-  //Score appears in console but not on page.
+
   //Need to reset the game without losing score
